@@ -1,0 +1,89 @@
+#card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; 
+}
+
+#card {
+    width: 300px;
+    border: 1px solid #562c2c;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.50); 
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
+.card-content {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    font-size: 16px;
+} 
+
+#card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #b66767;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    background-color: #007bff;
+    color: white;
+    margin-left: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
