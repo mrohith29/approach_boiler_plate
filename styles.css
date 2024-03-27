@@ -67,6 +67,13 @@ a:hover {
 
 
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
 .badge {
     display: inline-block;
     padding: .25em .4em;
@@ -77,13 +84,21 @@ a:hover {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25rem;
-    background-color: #007bff;
+    background-color: #ff6347; 
     color: white;
     margin-left: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.badge:hover {
+    background-color: #ff4500; 
 }
 
 h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #333;
+    margin: 20px 0; 
 }
+
