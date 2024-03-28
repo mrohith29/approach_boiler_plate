@@ -66,8 +66,13 @@ $newroot = new HTML(tag:'div', classes:'badge');
     echo $newroot;
 
     $root[] = new HTML(tag:'br');
-    $root[] = new HTML(tag:'button', content:'Click me', attributes:['onclick' => 'alert("Hello World")']);
-    echo $root;
+    
+$root[] = new HTML(tag:'label', content:'Enter your name');
+
+$root[] = new HTML(tag:'input', attributes:['type' => 'text', 'name' => 'name']);
+$root[] = new HTML(tag:'br');
+$root[] = new HTML(tag:'button', content:'Submit', attributes:['type' => 'submit']);
 
 
 
+echo $root;
